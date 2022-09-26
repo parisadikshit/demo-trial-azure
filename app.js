@@ -6,6 +6,6 @@ app.get('/', (req,res) => {
     res.send("Hello world!")
 })
 
-app.listen(3000, () => {
-    console.log("My REST API is running at port 3000")
+app.listen(8080, () => {
+    console.log("My REST API is running at port 8080")
 })
